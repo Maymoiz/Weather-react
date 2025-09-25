@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 import Weather from "./weather";
-
 function App() {
   return (
     <div className="App">
@@ -10,8 +9,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <Weather />
+        
       </header>
+      <Weather />
     </div>
   );
 }
